@@ -158,7 +158,7 @@ function NavBar() {
             </li>
             <li>
               <button
-              onClick={()=>{
+                onClick={()=>{
                 setActiveNav('#contact');
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
               }}

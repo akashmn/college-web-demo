@@ -18,9 +18,9 @@ function ContactForm() {
   };
 
   return (
-    <div id='contact'  className='w-[93%] m-auto' >
-      <h3 className='flex justify-center mt-4 underline p-1 text-2xl font-medium font-serif ' >CONTACT US</h3>
-      <div className='flex flex-row m-auto mt-3 '>
+    <div id='contact'  className='w-[93%] m-auto -mt-14' >
+      <h3 className='flex justify-center underline p-1 text-2xl font-medium font-serif ' >CONTACT US</h3>
+      <div className='flex flex-row m-auto mt-4 '>
         <div className='w-1/2 flex flex-row items-center justify-center gap-5'>
           <div className=' bg-white flex flex-col items-center justify-center border-4 border-black rounded-md p-3 h-44 w-52'>
             <h4 className='text-lg underline font-serif'>Email</h4>

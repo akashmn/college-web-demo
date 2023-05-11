@@ -4,6 +4,8 @@ import {MdKeyboardArrowRight} from 'react-icons/md'
 import {SlCallIn, SlLocationPin} from 'react-icons/sl'
 import {FiMail} from 'react-icons/fi'
 
+import {BsTwitter, BsInstagram, BsLinkedin} from 'react-icons/bs'
+
 import cecLogoWhite from '../../Images/CEC-logo-white.png'
 
 function Footer() {
@@ -80,7 +82,7 @@ function Footer() {
                         <MdKeyboardArrowRight />
                         <a className='hover:underline hover:text-white' href="">NSS CEC</a>
                     </div>
-                    <div className='flex flex-row items-center gap-5 '>
+                    <div className='flex flex-row items-center gap-5'>
                         <MdKeyboardArrowRight />
                         <a className='hover:underline hover:text-white' href="">NCC Navel Unit</a>
                     </div>
@@ -106,6 +108,14 @@ function Footer() {
         </div>
         <div className='bg-slate-400 opacity-25 mt-10 w-[65%] h-[1px] m-auto justify-between'>
 
+        </div>
+        <div className='flex flex-col items-center justify-center mt-3 gap-1'>
+        <h1>@ C E C</h1>
+        <div className='flex flex-row items-center justify-center gap-6 text-slate-400'>
+        <a className=' hover:text-white '  href="https://www.instagram.com/cec_chengannur/?hl=en"><BsInstagram size={22}/></a>
+        <a className=' hover:text-white '  href="https://twitter.com"><BsTwitter size={22}/></a>
+        <a className=' hover:text-white '  href="https://www.linkedin.com/school/college-of-engineering-chengannur/?originalSubdomain=in"><BsLinkedin size={22}/></a>
+        </div>
         </div>
     </div>
   )

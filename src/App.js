@@ -9,12 +9,12 @@ import './index.css';
 
 function App() {
   return (
-    <div className="gap-8 bg-stone-100 flex flex-col">
-      <div className='fixed top-0 z-50 w-full bg-slate-300'>
+    <div className="gap-8 bg-stone-200 flex flex-col">
+      <div className='fixed top-0 z-50 w-full bg-white'>
         <NavBar />
       </div>
       <SocialBar />
-      <div className='flex flex-row items-center justify-between gap-5'>
+      <div className='flex flex-row gap-10'>
         <Carousel />
         <About/>
       </div>
