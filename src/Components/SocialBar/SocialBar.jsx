@@ -6,7 +6,7 @@ import {BsInstagram} from 'react-icons/bs'
 function SocialBar() {
   return (
     <div id='home' className='p-2 flex flex-row items-center justify-between mt-36 ml-[900px] w-[25%] bg-white rounded-md'>
-      <div className=' flex flex-row gap-4 items-center justify-center'>
+      <div className=' flex flex-row gap-4 items-center justify-center mx-auto'>
         <h2 className=' text-xs'>CONNECT WITH US</h2>
         <h2>:</h2>
         <div className='flex flex-row items-center gap-6 text-blue-950'>
